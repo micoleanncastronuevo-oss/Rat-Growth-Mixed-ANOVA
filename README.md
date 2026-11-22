@@ -27,17 +27,25 @@ It contains body weight measurements from 27 rats across three treatment groups,
 ### Variables
 
 | Variable |                         Description                              | Measurement Level |
+
 |    id    |             Unique identifier assigned to each rat.              |      Nominal      |
+
 |    trt   |         Treatment group: Control, Thiouracil, or Thyroxin.       |      Nominal      |
+
 |   time   | Measurement occasion: Week 0, Week 1, Week 2, Week 3, or Week 4. |    Categorical    |
+
 |    y     |            Body weight of each rat, measured in grams.           |       Scale       |
 
 ### Treatment Group Distribution
 
 | Treatment Group | Number of Rats |
+
 |     Control     |       10       |
+
 |   Thiouracil    |       10       |
+
 |    Thyroxin     |        7       |
+
 |     Total       |       27       |
 
 The dataset is organized in long format, where each row represents one body weight measurement from a specific rat at a particular measurement occasion.
